@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background : url('img8.webp');
+}
+.cr p{
+    color: white;
+    padding-top: 10px;
+}
+.mb-3{
+    color: white;
+}
+
+.q .btn{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}

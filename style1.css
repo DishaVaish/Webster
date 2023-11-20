@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('img8.webp') no-repeat;
+}
+.wrapper .signup-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.signup p a {
+    color: wheat;
+    text-decoration: none;
+    font-weight: 600;
+}
+.signup p a:hover{
+    text-decoration: underline;
+}
+
+.signup{
+    width: 420px;
+    background: rgb(86, 40, 86);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px ;
+    ;
+
+}
+.signup h2 {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+.signup-form {
+    width: 420px;
+    background: rgb(86, 40, 86);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px ;
+}
+.btns {
+    width: 100%;
+    height:45px;
+    background: #fff;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+
+}
+
+input-boxs {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input {
+    width: 100%;
+    height: 80%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius: 30px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 25px 15px 20px;
+    margin: 10px ;
+
+}
+
+
